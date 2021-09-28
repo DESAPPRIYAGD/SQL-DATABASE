@@ -1,0 +1,13 @@
+create table movies(name varchar(10),actor varchar(15),actress varchar(15),yearofrelease int, director varchar(15));
+insert into movies values('sarkar','vijay','keerthi',2017,'armurugadoss');
+insert into movies values('paiya','karthik','thammanah',2010,'ravi');
+insert into movies values('vegam','ajay','shalini',2000,'kevin');
+insert into movies values('happydays','arun','swathi',2005,'raghul');
+select * from movies;
+
+
+NAME	     ACTOR	ACTRESS	 YEAROFRELEASE	 DIRECTOR
+sarkar	     vijay	keerthi	   2017	         armurugadoss
+paiya	     karthik	thammanah  2010  	 ravi
+vegam	     ajay	shalini	   2000	         kevin
+happydays    arun	swathi	   2005	         raghul
