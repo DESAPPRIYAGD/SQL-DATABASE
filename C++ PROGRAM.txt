@@ -1,0 +1,36 @@
+#include<iostream.h>
+#include<conio.h>
+int main()
+{
+clrscr();
+char mname[20][20],actor[20][20],actress[20][20],director[20][20];
+int yor[20],i;
+cout<<"enter the values:"<<endl;
+for(i=0;i<4;i++)
+{
+cout<<"movie name=";
+cin>>mname[i];
+cout<<"actor name=";
+cin>>actor[i];
+cout<<"actress name=";
+cin>>actress[i];
+cout<<"director name=";
+cin>>director[i];
+cout<<"year of release=";
+cin>>yor[i];
+}
+cout<<"****************** MOVIE TIME **********************";
+cout<<"\nMOVIENAME"<<"\tACTOR"<<"\tACTRESS"<<"\tYOR"<<"\tDIRECTOR";
+cout<<"\n--------------------------------------------------"<<endl;
+for(i=0;i<4;i++)
+{
+cout<<mname[i];
+cout<<"\t"<<actor[i];
+cout<<"\t"<<actress[i];
+cout<<"\t"<<yor[i];
+cout<<"\t"<<director[i];
+cout<<"\n";
+}
+cout<<"\n--------------------------------------------------"<<endl;
+return 0;
+}
